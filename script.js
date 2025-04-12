@@ -35,4 +35,9 @@
         document.querySelector('.list').innerHTML = ""; 
       });
   });
+
+  let btn = document.getElementById("btn")
+  btn.addEventListener("keydown", function(e){
+    "Enter" 
+  })
   
