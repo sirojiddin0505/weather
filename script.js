@@ -36,8 +36,11 @@
       });
   });
 
-  let btn = document.getElementById("btn")
-  btn.addEventListener("keydown", function(e){
-    "Enter" 
-  })
+
+  // let btn = document.getElementById("btn");
+  document.addEventListener('keydown',(e)=>{
+    if(e.key === 'Enter'){
+      document.getElementById("btn").click();
+    }
+  });
   

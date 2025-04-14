@@ -41,7 +41,6 @@ button{
     font-weight: bold;
     background-color: #ffffff;
     color: #2980b9;
-    transition: background-color 0.3s;
 }
 button:hover{
     background-color: #d6e6f2;
